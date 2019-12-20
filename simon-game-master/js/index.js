@@ -145,7 +145,7 @@ function flashColor() {
 }
 
 document.addEventListener('keydown', (e) => {
-  if (e.keyCode == 103) { //topleft '7'
+  if (e.keyCode == 63) { //topleft 'a'
     if (on) {
       playerOrder.push(1);
       check();
@@ -158,7 +158,7 @@ document.addEventListener('keydown', (e) => {
     }
   }
 
-  if (e.keyCode == 105) { //topright
+  if (e.keyCode == 66) { //topright 'b'
     if (on) {
       playerOrder.push(2);
       check();
@@ -171,7 +171,7 @@ document.addEventListener('keydown', (e) => {
     }
   }
 
-  if (e.keyCode == 97) { //bottomleft
+  if (e.keyCode == 67) { //bottomleft 'c'
     if (on) {
       playerOrder.push(3);
       check();
@@ -184,7 +184,7 @@ document.addEventListener('keydown', (e) => {
     }
   }
 
-  if (e.keyCode == 99) { //bottomright
+  if (e.keyCode == 68) { //bottomright 'd'
     if (on) {
       playerOrder.push(4);
       check();
