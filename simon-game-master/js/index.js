@@ -149,7 +149,7 @@ function flashColor() {
 }
 
 document.addEventListener('keydown', (e) => {
-  if (e.keyCode == 63) { //topleft 'a'
+  if (e.keyCode == 65) { //topleft 'a'
     if (on) {
       playerOrder.push(1);
       check();
